@@ -1,2 +1,7 @@
 # alu-web-development
-'![My Image](https://images.app.goo.gl/Rs2j2fU6VaWAGFWq6)'
+# HTML advanced
+## Description
+Replicating figma design using html and css to create live example of design
+
+
+![Screenshot](./screenshot.png)
