@@ -1,0 +1,421 @@
+/* ----------------------- Styling for langing section--------------------------- */
+body {
+    padding: 30px 0px 0px 0px;
+    margin: 0px;
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.00) 0%, #071629 100%), #000;
+    font-family: Arial, "Source Sans Pro" !important;
+}
+
+header,
+footer,
+section {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+/* main {
+    background-color: #071629;
+} */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro, Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 57px;
+    margin: 40px 0px
+}
+
+.background {
+    position: relative;
+    top: 0px;
+    background: url(./images/Bitmap.png), #071629;
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+button {
+    border-radius: 22px;
+    background: #C271FF;
+    width: 10.125rem;
+    height: 2.75rem;
+    color: #FFF;
+    text-align: center;
+    font-family: "Arial", "Source Sans Pro";
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.links>a {
+    padding: 21px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    font-family: Arial, "Source Sans Pro";
+}
+
+/* ---------------------------- Pro profile section -------------------------- */
+
+.pros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 185px !important;
+    padding: 0px 100px;
+    color: #ffffff;
+}
+
+.pro-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 0px;
+    width: 100%;
+}
+
+.pro-profile>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 9.375rem;
+    text-align: center;
+}
+
+.pro-profile>div>img {
+    width: 9.375rem;
+    height: 9.375rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.purple {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.pros>h2 {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.pro-profile>div>h3 {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pro-profile>div>p {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #C271FF;
+    margin-top: 80px;
+    padding: 50px 100px;
+    color: #ffffff;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 1.375rem;
+    /* font-style: normal; */
+    line-height: 2.1rem;
+}
+
+.quote>p {
+    margin: 0px 40px;
+}
+
+.person-name {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.1rem;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.tutorials {
+    background: #ffffff;
+}
+
+/* -------------------------------- Tutorilas section ---------------------------*/
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 80px 100px; */
+    color: #000000;
+    padding: 50px 100px;
+}
+
+.tutorials>h1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.tutorials>div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.tutorial-item {
+    width: 15.125rem;
+}
+
+.tutorial-item h2 {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tutorial-item p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 171.429% */
+}
+
+.tutorial-item div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headshot>img {
+    width: 1.875rem;
+    height: 1.875rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.headshot>h3 {
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6875rem;
+    /* 192.857% */
+}
+
+.rating>img {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    flex-shrink: 0;
+}
+
+.tutorial-foot {
+    justify-content: space-between;
+}
+
+/* ------------------------------- membership ------------------------------- */
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    color: #ffffff;
+}
+
+.membership>h1 {
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.members>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 9.375rem;
+    text-align: center;
+}
+
+.members>div>h2 {
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.members>div>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    /* 185.714% */
+}
+
+.members>button {
+    border-radius: 1.375rem;
+    background: #C271FF;
+}
+
+/* ----------------------------------------- FAQ ---------------------------- */
+
+.faq {
+    background-color: #ffffff;
+    padding: 50px 100px;
+}
+
+.faq>h1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.questions>div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px 20px;
+    max-width: 25.875rem;
+
+}
+
+.questions>div>div>p {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 171.429% */
+}
+
+/* ------------------------------- Footer ------------------------- */
+
+.end {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.end>div>div>a>img {
+    width: 1.875rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+}
+
+.end>p {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
